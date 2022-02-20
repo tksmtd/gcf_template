@@ -1,0 +1,19 @@
+{
+  "name": "gcf_getstockplacenum",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=main",
+    "watch": "npm-watch start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.0.0",
+    "npm-watch": "^0.11.0"
+  },
+  "watch": {
+    "start": "*.js"
+  }
+}
